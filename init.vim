@@ -54,9 +54,32 @@ Plug 'sebdah/vim-delve'
 
 " rust
 Plug 'rust-lang/rust.vim'
+
+" For NERDTree
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+
+" Telescope
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzy-native.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'BurntSushi/ripgrep'
+Plug 'mileszs/ack.vim'
+
+" Floaterm
+Plug 'voldikss/vim-floaterm'
+Plug 'jesseduffield/lazygit'
+Plug 'jesseduffield/lazydocker'
+
 call plug#end()
 
 
 source ~/.config/nvim/autocomplete.vim 
 source ~/.config/nvim/colorscheme.vim 
-
+source ~/.config/nvim/lspconfig.lua
+source ~/.config/nvim/nerdtree.vim
+source ~/.config/nvim/floatterm.vim

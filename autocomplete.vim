@@ -1,8 +1,6 @@
 
 set completeopt=menu,menuone,noselect
 
-inoremap <expr> <TAB> pumvisible() ? "<Down>" : "<TAB>"
-
 lua <<EOF
   -- Setup nvim-cmp.
   local cmp = require'cmp'
