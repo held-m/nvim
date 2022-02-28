@@ -1,6 +1,7 @@
 let g:webdevicons_enable_nerdtree = 0
 let g:NERDCreateDefaultMappings = 1
-
+" Show hidden files
+let NERDTreeShowHidden = 1 
 
 " nnoremap <leader>n :NERDTreeFocus<CR>
 " nnoremap <C-n> :NERDhreeMirror<CR>:NERDTreeFocus<CR>

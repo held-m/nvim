@@ -1,9 +1,12 @@
 set mouse=a  " enable mouse
 language en_US.utf-8
 set encoding=utf-8
-syntax enable
+
 set clipboard+=unnamedplus
 set noswapfile
+
+filetype plugin indent on
+syntax enable
 
 set number
 set tabstop=4
@@ -75,6 +78,8 @@ Plug 'voldikss/vim-floaterm'
 Plug 'jesseduffield/lazygit'
 Plug 'jesseduffield/lazydocker'
 
+" Comments
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 
@@ -83,3 +88,4 @@ source ~/.config/nvim/colorscheme.vim
 source ~/.config/nvim/lspconfig.lua
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/floatterm.vim
+source ~/.config/nvim/telescope.vim
